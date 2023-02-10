@@ -8,6 +8,7 @@
     <body>
         <h1>Volunteer Form</h1>
         <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
+
             <fieldset>
                 <legend>
                     <h3>My Info</h3>
@@ -35,7 +36,7 @@
                 <legend>
                     <h3>My Availability</h3>
                 </legend>
-                <label>Days Available</label>
+                <h3>Days Available:</h3>
                 <div><label><input type="checkbox" name="available_field[]">Sunday</label></div>
                 <div><label><input type="checkbox" name="available_field[]">Monday</label></div>
                 <div><label><input type="checkbox" name="available_field[]">Tuesday</label></div>
@@ -44,9 +45,10 @@
                 <div><label><input type="checkbox" name="available_field[]">Friday</label></div>
                 <div><label><input type="checkbox" name="available_field[]">Saturday</label></div>
 
-                <label>Any Comments?<input type="hidden" name="hidden_field[]"></label>
+                <h3>Any Comments?</h3>
+                <textarea name="comments_field"></textarea>
             </fieldset>
-
+            <input type="hidden" name="hidden_field[]">
             <button type="submit">Submit</button>
 
         </form>
