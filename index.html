@@ -14,7 +14,7 @@
                     <h3>My Info</h3>
                 </legend>
                 <div><label>First Name:<input type="text" name="first_name_field"></label></div>
-                <div><label>Last Name:<input type="text" name=" last_name_field"></label></div>
+                <div><label>Last Name:<input type="text" name="last_name_field"></label></div>
                 <div><label>Phone Number:<input type="text" name="phone_field"></label></div>
                 <div><label>Email Address:<input type="text" name="email_field"></label></div>
                 <div>
@@ -34,9 +34,10 @@
 
             <fieldset>
                 <legend>
-                    <h5>My Availability</h5>
+                    <h3>My Availability</h3>
                 </legend>
-                <h3>Days Available:</h3>
+                <h5>Days Available:</h5>
+                <div>
                 <div><label><input type="checkbox" name="available_field[]">Sunday</label></div>
                 <div><label><input type="checkbox" name="available_field[]">Monday</label></div>
                 <div><label><input type="checkbox" name="available_field[]">Tuesday</label></div>
@@ -47,6 +48,7 @@
 
                 <h5>Any Comments?</h5>
                 <textarea name="comments_field"></textarea>
+                </div>
             </fieldset>
             <input type="hidden" name="hidden_field[]">
             <button type="submit">Submit</button>
